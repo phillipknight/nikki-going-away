@@ -12,6 +12,12 @@ body {
   
   }
   
+  section#one {
+      background-image:url(images/nikki-queen-small.png);
+      background-repeat: no-repeat;
+      background-size:100%;
+      background-position: bottom right;
+  }
   
   
   section#one .nes-container {
