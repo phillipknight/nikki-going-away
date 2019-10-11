@@ -1,6 +1,13 @@
 body {
     scroll-snap-type: y mandatory;
   }
+
+  img {
+    vertical-align: middle;
+    border-style: none;
+    max-height: 80vh;
+    max-width: 100%;
+  }
   
   section {
     height: 100vh;
