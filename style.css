@@ -1,0 +1,20 @@
+body {
+    scroll-snap-type: y mandatory;
+  }
+  
+  section {
+    height: 100vh;
+    padding: 2rem;
+    scroll-snap-align: start;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  
+  }
+  
+  
+  
+  section#one .nes-container {
+    background-color: #ffffff;
+  }
+  
