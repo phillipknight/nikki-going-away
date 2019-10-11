@@ -13,10 +13,10 @@ body {
   }
   
   section#one {
-      background-image:url(images/nikki-queen-small.png);
-      background-repeat: no-repeat;
-      background-size:100%;
-      background-position: bottom right;
+    background-image: url(images/nikki-queen-small.png);
+    background-repeat: no-repeat;
+    background-size: 25vh;
+    background-position: 90% 100%;
   }
   
   
