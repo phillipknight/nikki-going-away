@@ -24,8 +24,13 @@ body {
     background-repeat: no-repeat;
     background-size: 25vh;
     background-position: 90% 100%;
+    align-items: flex-start;
   }
-  
+  @media only screen and (min-width: 1024px) {
+    section#one {
+      align-items: center;
+    }
+  }
   
   section#one .nes-container {
     background-color: #ffffff;
