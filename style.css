@@ -35,4 +35,11 @@ body {
   section#one .nes-container {
     background-color: #ffffff;
   }
+
+  section#contributors {
+    background: url(images/sqlmatrix.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
   
