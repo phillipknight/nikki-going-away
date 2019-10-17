@@ -3,13 +3,32 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+
+            var callback = function(){
+          // Handler when the DOM is fully loaded 
+          var elem = document.getElementById('body');
+          elem.style.opacity = 1;
+        };
+        
+        if (
+            document.readyState === "complete" ||
+            (document.readyState !== "loading" && !document.documentElement.doScroll)
+        ) {
+          callback();
+        } else {
+          document.addEventListener("DOMContentLoaded", callback);
+        }</script>
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+
+
+    
 </head>
 
 
-<body>
+<body id="body">
     <section id="one">
         <div class="containter-container">
             <div class="nes-container with-title is-centered is-rounded">

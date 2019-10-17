@@ -1,6 +1,14 @@
+
+
+
+
 body {
     scroll-snap-type: y mandatory;
+    opacity: none;
   }
+
+
+
 
   img {
     vertical-align: middle;
